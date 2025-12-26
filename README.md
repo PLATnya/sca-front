@@ -1,20 +1,6 @@
-# SCA Frontend - Spy Cats Management
+# SCA Frontend 
 
-A Next.js application for managing spy cats, built with React and TypeScript.
 
-## Features
-
-- View all spy cats in a table
-- Add new spy cats with validation
-- Edit cat salaries inline
-- Delete spy cats
-- Graceful error handling with user-friendly messages
-- Modern, responsive UI with Tailwind CSS
-
-## Prerequisites
-
-- Node.js 18+ and npm/yarn
-- Backend API running at `http://localhost:8000` (the frontend runs on port 3000, backend on 8000 - no conflict)
 
 ## Setup
 
@@ -44,7 +30,7 @@ npm run dev
 yarn dev
 ```
 
-The frontend will start on **http://localhost:3000** and will connect to the backend API at **http://localhost:8000**.
+The frontend will start on **http://localhost:3000** and will connect to the backend API*.
 
 ## Build for Production
 
@@ -73,12 +59,3 @@ sca_front/
 ## API Integration
 
 The app connects to the SCA Backend API. Make sure the backend is running and accessible at the configured URL.
-
-## Error Handling
-
-The application handles API errors gracefully:
-- Shows user-friendly error messages
-- Displays validation errors from the backend
-- Provides retry options when requests fail
-- Shows loading states during operations
-
